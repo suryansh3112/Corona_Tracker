@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./App.module.css";
 import { Chart, CountryPicker, Cards } from "./components";
-import fetchData from "./api/index";
+import { fetchData } from "./api/index";
 // function App() {
 //   return (
 //     <div className={styles.container}>
