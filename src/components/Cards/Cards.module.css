@@ -3,7 +3,10 @@
 }
 
 .card {
-  margin: 0 2% !important;
+  margin: 0 3% !important;
+  box-shadow: 3px 5px 5px rgb(95, 91, 91) !important;
+  /* width: 400px;
+  height: 200px; */
 }
 
 .infected {
@@ -16,4 +19,11 @@
 
 .deaths {
   border-bottom: 10px solid red;
+}
+
+@media (max-width:770px){
+  .card{
+    margin: 2% 0 !important;
+    box-shadow: 2px 4px 4px rgb(95, 91, 91) !important;
+  }
 }

@@ -9,6 +9,18 @@ body {
   flex-direction: column;
 }
 
-.hi {
-  color: red;
+
+.image{
+  width: 370px;
+  margin-top: 50px;
+}
+
+@media (max-width:770px){
+  .image{
+    width:100%;
+  }
+
+  .container{
+    margin: 0 10%;
+  }
 }
